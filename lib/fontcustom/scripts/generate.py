@@ -28,10 +28,10 @@ except ImportError:
 
 f = fontforge.font()
 f.encoding = 'UnicodeFull'
-f.design_size = 22
-f.em = 512
-f.ascent = 448
-f.descent = 64
+f.design_size = 11
+f.em = 550
+f.ascent = f.em
+f.descent = 0
 
 m = md5.new()
 cp = 0xf100
