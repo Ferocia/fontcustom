@@ -30,7 +30,7 @@ options = manifest['options']
 
 font = fontforge.font()
 font.encoding = 'UnicodeFull'
-font.design_size = 16
+font.design_size = 22
 font.em = 512
 font.ascent = 448
 font.descent = 64
